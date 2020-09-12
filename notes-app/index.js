@@ -3,11 +3,6 @@ const note = require("./notes");
 const chalk = require("chalk");
 //Without curly braces this does not work
 
-//getting file name
-console.log(argv.file);
-
-//
-
 switch (argv.mode) {
 	case "delete":
 		note.delete(argv.file);
